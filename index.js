@@ -49,7 +49,8 @@ function isPalindrome(inputString)
     {
       return isPalindrome(inputString.substring(1,inputString.length - 2));
     }
-    else return false
+    else 
+    return false
   }
 }
 
