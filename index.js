@@ -47,7 +47,7 @@ function isPalindrome(inputString)
   {
     if(inputString.charAt(0) === inputString.charAt(inputString.length - 1))
     {
-      console.log(`string left = ${inputString} ${inputString.charAt(0)} = ${inputString.charAt(inputString.length - 1)}`)
+      //console.log(`string left = ${inputString} ${inputString.charAt(0)} = ${inputString.charAt(inputString.length - 1)}`)
       return isPalindrome(inputString.substring(1,inputString.length - 2));
     }
     else 
