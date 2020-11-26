@@ -51,6 +51,7 @@ function isPalindrome(inputString)
     }
     else 
     {
+      console.log(false)
       return false;    
     }
 
