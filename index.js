@@ -37,7 +37,6 @@ function reverseString(inputString)
 
 function isPalindrome(inputString)
 {
-  let substring;
   
   if (inputString === "" || inputString.length ===1)
   {
