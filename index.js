@@ -38,7 +38,6 @@ function reverseString(inputString)
 function isPalindrome(inputString)
 {
   let substring;
-  let test = false;
   
   if (inputString === "" || inputString.length ===1)
   {
@@ -48,11 +47,10 @@ function isPalindrome(inputString)
   {
     if(inputString.charAt(0) === inputString.charAt(inputString.length - 1))
     {
-      test = isPalindrome(inputString.substring(1,inputString.length - 2));
-      test = true;
+      return isPalindrome(inputString.substring(1,inputString.length - 2));
     }
+    else return false
   }
-  return test;
 }
 
 function addUpTo(inputArray, inputIndex)
